@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "category": "saloon",
+    "name": "eqe-saloon",
+    "title": "EQE",
+    "subtitle": "Saloon",
+    "img": "/",
+    "fuel": "Electric",
+    "gearbox": "Automatic",
+    "color": "Black",
+    "price": 47000
+  },
+  {
+    "id": 2,
+    "category": "saloon",
+    "name": "eqs-saloon",
+    "title": "EQS",
+    "subtitle": "Saloon",
+    "img": "/",
+    "fuel": "Electric",
+    "gearbox": "Automatic",
+    "color": "Black",
+    "price": 57000
+  },
+  {
+    "id": 3,
+    "category": "saloon",
+    "name": "a-class-saloon",
+    "title": "A-Class",
+    "subtitle": "Saloon",
+    "img": "/",
+    "fuel": "Petrol",
+    "gearbox": "Automatic",
+    "color": "Black",
+    "price": 55000
+  },
+  {
+    "id": 4,
+    "category": "saloon",
+    "name": "c-class-saloon",
+    "title": "C-Class",
+    "subtitle": "Saloon",
+    "img": "/",
+    "fuel": "Petrol",
+    "gearbox": "Automatic",
+    "color": "Black",
+    "price": 58000
+  },
+  {
+    "id": 5,
+    "category": "saloon",
+    "name": "e-class-saloon",
+    "title": "E-Class",
+    "subtitle": "Saloon",
+    "img": "/",
+    "fuel": "Petrol",
+    "gearbox": "Automatic",
+    "color": "Black",
+    "price": 62000
+  },
+  {
+    "id": 6,
+    "category": "saloon",
+    "name": "s-class-saloon",
+    "title": "S-Class",
+    "subtitle": "Saloon",
+    "img": "/",
+    "fuel": "Petrol",
+    "gearbox": "Automatic",
+    "color": "Black",
+    "price": 88000
+  },
+  {
+    "id": 7,
+    "category": "saloon",
+    "name": "s-class-saloon-long",
+    "title": "S-Class",
+    "subtitle": "Saloon Long",
+    "img": "/",
+    "fuel": "Petrol",
+    "gearbox": "Automatic",
+    "color": "Black",
+    "price": 120000
+  },
+  {
+    "id": 8,
+    "category": "saloon",
+    "name": "maybach-s-class-saloon",
+    "title": "Maybach S-Class",
+    "subtitle": "Saloon",
+    "img": "/",
+    "fuel": "Petrol",
+    "gearbox": "Automatic",
+    "color": "Black",
+    "price": 271000
+  }
+]

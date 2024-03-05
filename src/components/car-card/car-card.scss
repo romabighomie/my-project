@@ -1,0 +1,115 @@
+.car-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  width: 100%;
+  padding: 20px;
+
+  background: var(--slate-50);
+  box-shadow: 0 2px 5px 0 var(--slate-300);
+  border-radius: 10px;
+
+  position: relative;
+  z-index: 1;
+
+  overflow: hidden;
+
+  &__favorites {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 26px;
+    color: var(--slate-500);
+
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-right: 25px;
+    text-align: start;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--slate-900);
+  }
+
+  &__subtitle {
+    font-size: 14px;
+    color: var(--slate-400);
+  }
+
+  &__image {
+    width: 100%;
+    max-width: 255px;
+    height: auto;
+    min-height: 129px;
+    margin: 0 auto;
+    object-fit: contain;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  &__features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    font-size: 18px;
+
+    &--green {
+      color: var(--green-400);
+    }
+  }
+
+  &__footer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: auto;
+  }
+
+  &__footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+    &:nth-child(1) {
+      padding-bottom: 12px;
+      border-bottom: 2px solid var(--slate-300);
+    }
+  }
+
+  &__price {
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--slate-900);
+  }
+
+  &__more-info {
+    margin: 0 auto;
+    font-weight: 500;
+    color: var(--slate-500);
+
+    &:hover {
+      color: var(--slate-700);
+    }
+  }
+}

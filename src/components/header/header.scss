@@ -1,0 +1,17 @@
+.header {
+  padding: 20px 0;
+  background: var(--slate-200);
+  border-bottom: 2px solid var(--slate-300);
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__row {
+    display: flex;
+    gap: 20px;
+  }
+}
