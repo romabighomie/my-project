@@ -65,7 +65,7 @@ export default function carCard(props) {
 				<div className="car-card__footer-row">
 					<Link
 						className="car-card__more-info"
-						to={`cars/${props.name}`}
+						to={`/cars/${props.category}/${props.name}`}
 					>
 						More info
 					</Link>

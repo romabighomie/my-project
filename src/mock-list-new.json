@@ -1,0 +1,47 @@
+[
+  {
+    "category": {
+      "saloon": {
+        "eqe": {
+          "id": 1,
+          "title": "EQE",
+          "img": "https://firebasestorage.googleapis.com/v0/b/auth-c0321.appspot.com/o/cars%2Feqe-saloon.webp?alt=media&token=aa3f68a1-0bc5-49f0-b789-73c3d2264b03",
+          "fuel": "Electric",
+          "gearbox": "Automatic",
+          "color": "Black",
+          "price": 47000
+        },
+        "eqs": {
+          "id": 2,
+          "title": "EQS",
+          "img": "https://firebasestorage.googleapis.com/v0/b/auth-c0321.appspot.com/o/cars%2Feqs-saloon.webp?alt=media&token=39fd0da4-2868-42b1-adb1-2103cf5f9622",
+          "fuel": "Electric",
+          "gearbox": "Automatic",
+          "color": "Black",
+          "price": 57000
+        }
+      },
+
+      "suv": {
+        "eqa": {
+          "id": 1,
+          "title": "EQA",
+          "img": "https://firebasestorage.googleapis.com/v0/b/auth-c0321.appspot.com/o/cars%2Feqa-suv.webp?alt=media&token=f2e525d0-53e1-426c-98da-3e044e4fbbb1",
+          "fuel": "Electric",
+          "gearbox": "Automatic",
+          "color": "Black",
+          "price": 60000
+        },
+        "eqb": {
+          "id": 2,
+          "title": "EQB",
+          "img": "https://firebasestorage.googleapis.com/v0/b/auth-c0321.appspot.com/o/cars%2Feqb-suv.webp?alt=media&token=673c07d4-df5c-48f6-ba67-30801c67a33f",
+          "fuel": "Electric",
+          "gearbox": "Automatic",
+          "color": "Black",
+          "price": 66000
+        }
+      }
+    }
+  }
+]

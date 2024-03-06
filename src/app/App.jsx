@@ -18,8 +18,8 @@ export default function App() {
           <Route index element={<HomePage />} />
           <Route path="profile" element={<ProfilePage />} />
           <Route path="favorites" element={<FavoritesPage />} />
-          <Route path="cars" element={<CarListPage />} />
-          <Route path="cars/:carName" element={<CarDetailsPage />} />
+          <Route path="cars/:carCategory" element={<CarListPage />} />
+          <Route path="cars/:carCategory/:carName" element={<CarDetailsPage />} />
           <Route path="order" element={<OrderPage />} />
           <Route path="order/:orderId" element={<OrderPage />} />
           <Route path="*" element={<NotFoundPage />} />
